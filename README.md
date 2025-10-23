@@ -25,3 +25,14 @@ Hands-on PySpark examples showing RDD transformations (`map`, `filter`, `flatMap
 
 **Overview:**
 Practical exploration of Spark SQL for data analysis. Covers creating Spark sessions, loading DataFrames, and registering temporary views to run SQL queries using spark.sql(). Demonstrates filtering, grouping, joining, and aggregating data through SQL syntax, along with combining SQL queries and DataFrame operations. Includes examples of saving query results for further processing or reporting.
+
+
+
+# 4 
+# DataFrame Joins & Window Functions
+
+**File:** `day4_joins_windows.py`
+
+**Overview:**  
+Hands-on examples demonstrating how to merge DataFrames using different join types (inner, left, full outer) and how to apply window functions for analytical calculations. The script shows `rank`, `dense_rank`, `row_number`, `lag`, `lead`, and partitioned aggregates (e.g., max salary per department). It also includes a practical example to extract the top-2 paid employees per department.
+
