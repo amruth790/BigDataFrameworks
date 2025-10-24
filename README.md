@@ -36,3 +36,16 @@ Practical exploration of Spark SQL for data analysis. Covers creating Spark sess
 **Overview:**  
 Hands-on examples demonstrating how to merge DataFrames using different join types (inner, left, full outer) and how to apply window functions for analytical calculations. The script shows `rank`, `dense_rank`, `row_number`, `lag`, `lead`, and partitioned aggregates (e.g., max salary per department). It also includes a practical example to extract the top-2 paid employees per department.
 
+# 5
+# Spark SQL & Temporary Views
+
+**File:** `day5_spark_sql.py`
+
+**Overview:**  
+Demonstrates how to query PySpark DataFrames using SQL syntax by registering them as temporary views. The script covers filtering, joins, aggregations, sorting, and using global temporary views. This bridges DataFrame APIs and SQL operations for more readable analytics workflows.
+
+**Skills demonstrated:**
+- Creating temporary & global views
+- Running SQL queries using `spark.sql()`
+- Performing joins, grouping, and filtering in SQL
+- Integrating SQL-style queries with DataFrame transformations
