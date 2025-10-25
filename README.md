@@ -49,3 +49,22 @@ Demonstrates how to query PySpark DataFrames using SQL syntax by registering the
 - Running SQL queries using `spark.sql()`
 - Performing joins, grouping, and filtering in SQL
 - Integrating SQL-style queries with DataFrame transformations
+  
+
+
+# 6
+# Spark Joins & DataFrame Relationships
+
+**File:** `spark_joins.py`
+
+**Overview:**  
+Explores multiple types of joins in PySpark, including inner, left, right, full outer, semi, and anti joins. Demonstrates how to combine DataFrames based on matching keys, handle missing data, and understand which rows are preserved in each join type.
+
+**Skills demonstrated:**
+- Performing joins with `join()` on DataFrames
+- Understanding join behavior and data relationships
+- Handling nulls and missing records
+- Using semi and anti joins for filtering operations
+
+
+
