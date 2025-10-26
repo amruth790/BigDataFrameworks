@@ -68,3 +68,24 @@ Explores multiple types of joins in PySpark, including inner, left, right, full 
 
 
 
+
+
+
+
+# 7
+#  Spark + Kafka Integration
+
+**File:** `spark_kafka_pipeline.py`
+
+**Overview:**  
+Implements a real-time streaming pipeline integrating Apache Spark Structured Streaming with Apache Kafka. The script reads live messages from a Kafka topic, performs transformations (like word count), and outputs the results to the console. Demonstrates the basics of end-to-end event streaming and data processing.
+
+**Skills demonstrated:**
+- Reading streaming data from Kafka with PySpark
+- Transforming and aggregating data in real-time
+- Writing continuous streaming results to console or sinks
+- Understanding the Spark-Kafka connector
+
+
+
+
